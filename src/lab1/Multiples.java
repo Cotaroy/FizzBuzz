@@ -20,4 +20,8 @@ public class Multiples {
         }
         return count;
     }
+
+    static int multiples() {
+        return multiples(1000, 3, 5);
+    }
 }
